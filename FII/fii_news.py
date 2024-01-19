@@ -5,7 +5,7 @@ import time
 from datetime import datetime
 import pickle
 
-class fiiNews:
+class FiiNews:
     def __init__(self):
         self.dict_site = {}
         self.all_sites = ['fii']
@@ -46,7 +46,6 @@ class fiiNews:
                     dict_aux["link"] = value
 
                     print(dict_aux)
-
                     if len(self.news) == 0:
                         self.news.insert(0, dict_aux)
                         continue
@@ -63,3 +62,5 @@ class fiiNews:
             self.news = sorted(self.news, key=lambda d: d['data'], reverse=True)
             self._updated_files(self.news, 'news')
             time.sleep(10)
+
+site = FiiNews()
