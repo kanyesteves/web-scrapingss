@@ -19,3 +19,4 @@ Uma thread é uma unidade de execução dentro de um processo. Um processo pode 
 O motivo principal é que para cada `Thread` um web-scraping está sendo executado por background sem precisar que o script esteja em execução e sem precisar ter que ocupar um novo espaço de endereçamento, recursos do sistema e arquivos abertos.
 
 #### Estrutura do projeto
+![Estrutura](https://github.com/kanyesteves/web-scrapingss/blob/main/FII/estrutura.png)
